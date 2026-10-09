@@ -77,41 +77,55 @@ These capabilities describe the intended product direction; availability depends
 
 ## 🏗️ How It Works
 
-<escape>
+## ⚙️ How It Works
+
+GPU Market connects GPU providers with people and businesses that need computing power.
+
+### 1. Providers List GPUs
+Providers publish their available GPU resources, including:
+- GPU model and quantity
+- Region
+- Available GPU hours
+- Price per GPU-hour
+
+### 2. Buyers Explore Listings
+AI developers, startups, and researchers browse available GPUs and compare pricing, capacity, and regions.
+
+### 3. Choose a Compute Agreement
+
+**Spot Compute**
+- Access available GPU capacity for immediate or near-term needs.
+- Keep usage flexible as workloads change.
+
+**Forward Compute**
+- Agree on a price and capacity for a future period.
+- Help buyers plan compute costs and providers plan revenue.
+
+### 4. Execute and Settle
+In the long-term vision, the platform will support reservations, compute delivery verification, and settlement mechanisms.
+
+### 🔄 The Marketplace Flow
+
 ```text
-       GPU INFRASTRUCTURE PROVIDERS
-                    |
-                    v
-          Publish Compute Offers
-                    |
-                    v
-              GPU MARKET
-        +-----------------------+
-        | GPU Discovery         |
-        | Spot Pricing          |
-        | Forward Agreements    |
-        | Capacity Management   |
-        | Order Management      |
-        +-----------------------+
-                    |
-                    v
-           BUYERS AND TEAMS
-                    |
-          +---------+---------+
-          |                   |
-          v                   v
-     SPOT COMPUTE       FORWARD COMPUTE
-    Near-term access    Future commitments
-          |                   |
-          +---------+---------+
-                    |
-                    v
-          COMPUTE FULFILLMENT
-                    |
-                    v
-       SETTLEMENT AND RECORDS
+GPU Providers
+      |
+      v
+Publish GPU Listings
+      |
+      v
+GPU Market
+      |
+      v
+Buyers Discover Capacity
+      |
+      v
+Choose Spot or Forward
+      |
+      v
+Compute Usage & Settlement
 ```
-</escape>
+
+> **Note:** The flow describes the intended marketplace. GPU provisioning, forward-contract execution, and automated settlement are planned capabilities, not currently implemented features.
 
 ### Typical workflow
 

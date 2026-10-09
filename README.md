@@ -254,9 +254,7 @@ Potential areas of contribution include:
 
 For major changes, open an issue to discuss the proposed design before submitting a pull request.
 
-## 📄 License
 
-Choose and add an appropriate `LICENSE` file before granting public reuse rights.
 
 
 

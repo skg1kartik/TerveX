@@ -1,4 +1,4 @@
-# ⚡ GPU Market
+# TerveX
 ### The Marketplace for Spot and Forward GPU Compute
 
 **Trade GPU compute. Lock your price. Secure your capacity.**
